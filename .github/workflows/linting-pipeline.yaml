@@ -24,6 +24,10 @@ jobs:
         npm init -y
         npm install htmlhint stylelint stylelint-config-standard --save-dev
 
+        steps:
+    -  name: Install dependencies
+    run: npm install -g stylelint
+
     - name: Run HTMLHint
       run: npx htmlhint "**/*.html"
 
