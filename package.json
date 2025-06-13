@@ -15,5 +15,11 @@
     "url": "https://github.com/723Ash/Portfolio-Website/issues"
   },
   "homepage": "https://github.com/723Ash/Portfolio-Website#readme",
-  "description": ""
+  "description": "",
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^38.0.0"
+  }
 }
