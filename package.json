@@ -18,5 +18,8 @@
   "description": "",
   "stylelint": {
     "extends": "stylelint-config-standard"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^38.0.0"
   }
 }
